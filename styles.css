@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'bazarmedium';
+    src: url('webfontkit/bazar-webfont.woff2') format('woff2'),
+         url('webfontkit/bazar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #e48b6a;
+    width: 2800px;
+    height: 1696px;  
+  
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-top: 20px;
+    border-top: 4px dashed;
+    border-top-color: rgba(0, 0, 0, 0.25);
+    
+      
+}
+header {
+    margin-top: -45px;
+}
+.container {
+    margin-top: 300px;
+    max-width: 1960px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+.grid {
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-item {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+   
+
+.width-1-4 {
+width: 25%;
+}
+
+.card {
+    height: 450px;
+    width: 442px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+background-color: #fbfaf6;
+padding: 10px;
+border-radius: 6px;
+
+}
+.card-icon {
+    margin-left: 168px;
+    margin-top: -30px;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+font-weight: 700;
+line-height: 22px;
+text-transform: uppercase;
+margin-top: 0;
+font-family: 'Roboto Slab', serif;
+color: #383a3c;
+}
+
+.head {
+    margin-top: 200px;
+    font-size: 180px;
+    font-family: 'bazarmedium';
+    color: black;
+    line-height: 0.122;
+    text-align: center;
+    /* position: absolute; */ 
+   
+  }
+  .head_shadow {
+    margin-top: -210px;
+    margin-left: -14px;
+    font-size: 180px;
+    font-family: 'bazarmedium';
+    color: rgb(72, 74, 77);
+    line-height: 0.122;
+    text-align: center;
+    /* position: absolute; */ 
+    text-shadow: 3px 3px 0 #fcfaf7;
+  }
+
+  .head1 {
+    color: #38353e;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: -110px;
+    margin-bottom: -400px;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .subhead {
+    margin-left: 1270px;
+       margin-bottom: -300px;
+  }
+
+   .bottom {
+    color: #38353e;
+    font-family: Oswald;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .dash-bottom {
+      padding-top: 70px;
+ 
+    margin-bottom: 20px; 
+  }
+  .tags {
+    margin-bottom: -290px;
+    margin-left: 400px;
+    margin-top: 400px;
+     }
+     .tags img {
+         padding-left: 20px;
+     }
+    
+     footer {
+        border-bottom: 4px dashed;
+        border-bottom-color: rgba(0, 0, 0, 0.25);
+        padding-bottom: 50px;
+       
+     }
